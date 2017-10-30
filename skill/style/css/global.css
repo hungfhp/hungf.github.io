@@ -1894,7 +1894,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 .footer__image {
   width: 350px;
   height: 100px;
-  background-image: url("../img/footer_image.png");
+  background-image: url("../../logo.png");
   background-size: contain;
   background-position: center right;
   background-repeat: no-repeat;
