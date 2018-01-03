@@ -8,13 +8,7 @@
 	 * * dominikdsgnr@gmail.com
 	 *
 	 */
-
-
-
-
-
-
-/*------------------------------------*\
+	 /*------------------------------------*\
 	Document Ready
 \*------------------------------------*/
 $(document).ready(function(){
@@ -31,12 +25,20 @@ $(document).ready(function(){
 		$(".showcase__stage-wrapper").css("height", $(".showcase__stage--active").height() );
 	}
 
-
-
-
-
-
-	/*------------------------------------*\
+	$('.experience-more-show').click(function(){
+		$(this).hide("slow");
+		$('.experience-more').show("slow");
+		$('.experience-more-hide').show("slow");
+	})
+	$('.experience-more-hide').click(function(){
+		$(this).hide("slow");
+		$('.experience-more-show').show("slow");
+		$('.experience-more').hide("slow");
+		$('html, body').animate({
+                    scrollTop: $("#experience").offset().top
+                }, 500);
+	})
+		/*------------------------------------*\
 		Set hero and showcase heights
 	\*------------------------------------*/
 	if( $(".maxwidth1050").css("display") == "none" )
@@ -75,13 +77,7 @@ $(document).ready(function(){
 	window.addEventListener("orientationchange", function() {
 		ShowcaseHeightSet();
 	});
-
-
-
-
-
-
-	/*------------------------------------*\
+		/*------------------------------------*\
 		Run showcase height function
 		after image on active slide
 		has loaded
@@ -91,13 +87,7 @@ $(document).ready(function(){
 	}).each(function() {
 		if(this.complete) $(this).load();
 	});
-
-
-
-
-
-
-	/*------------------------------------*\
+		/*------------------------------------*\
 		Hamburger navigation in header
 	\*------------------------------------*/
 	$(".header__hamburger").click(function(event) {
@@ -145,13 +135,7 @@ $(document).ready(function(){
 
 		window.location.hash = ThisHref;
 	});
-
-
-
-
-
-
-	/*------------------------------------*\
+		/*------------------------------------*\
 		Portfolio Showcase
 	\*------------------------------------*/
 	//responsive slides set
@@ -228,13 +212,7 @@ $(document).ready(function(){
 		//set height
 		ShowcaseHeightSet();
 	});
-
-
-
-
-
-
-	/*------------------------------------*\
+		/*------------------------------------*\
 		Contact form AJAX script
 		which communicates with
 		contact_form.php
@@ -303,11 +281,6 @@ $(document).ready(function(){
 
 		}
 	});
-
-
-
-
-
 
 	/*------------------------------------*\
 		Hat tip

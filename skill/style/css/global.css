@@ -20,7 +20,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-html {
+ html {
   font-family: sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
@@ -32,29 +32,29 @@ html {
 /**
  * Remove default margin.
  */
-body {
+ body {
   margin: 0;
 }
 
 /* HTML5 display definitions
-   ========================================================================== */
+========================================================================== */
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
  * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ main,
+ nav,
+ section,
+ summary {
   display: block;
 }
 
@@ -62,10 +62,10 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-audio,
-canvas,
-progress,
-video {
+ audio,
+ canvas,
+ progress,
+ video {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
@@ -76,7 +76,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-audio:not([controls]) {
+ audio:not([controls]) {
   display: none;
   height: 0;
 }
@@ -85,49 +85,49 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-[hidden],
-template {
+ [hidden],
+ template {
   display: none;
 }
 
 /* Links
-   ========================================================================== */
+========================================================================== */
 /**
  * Remove the gray background color from active links in IE 10.
  */
-a {
+ a {
   background: transparent;
 }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-a:active,
-a:hover {
+ a:active,
+ a:hover {
   outline: 0;
 }
 
 /* Text-level semantics
-   ========================================================================== */
+========================================================================== */
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-abbr[title] {
+ abbr[title] {
   border-bottom: 1px dotted;
 }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-b,
-strong {
+ b,
+ strong {
   font-weight: bold;
 }
 
 /**
  * Address styling not present in Safari and Chrome.
  */
-dfn {
+ dfn {
   font-style: italic;
 }
 
@@ -135,7 +135,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-h1 {
+ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -143,7 +143,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-mark {
+ mark {
   background: #ff0;
   color: #000;
 }
@@ -151,15 +151,15 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-small {
+ small {
   font-size: 80%;
 }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-sub,
-sup {
+ sub,
+ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -175,34 +175,34 @@ sub {
 }
 
 /* Embedded content
-   ========================================================================== */
+========================================================================== */
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-img {
+ img {
   border: 0;
 }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-svg:not(:root) {
+ svg:not(:root) {
   overflow: hidden;
 }
 
 /* Grouping content
-   ========================================================================== */
+========================================================================== */
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-figure {
+ figure {
   margin: 1em 40px;
 }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-hr {
+ hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
@@ -211,23 +211,23 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-pre {
+ pre {
   overflow: auto;
 }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-code,
-kbd,
-pre,
-samp {
+ code,
+ kbd,
+ pre,
+ samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
 
 /* Forms
-   ========================================================================== */
+========================================================================== */
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
  * styling of `select`, unless a `border` property is set.
@@ -238,11 +238,11 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-button,
-input,
-optgroup,
-select,
-textarea {
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
   color: inherit;
   /* 1 */
   font: inherit;
@@ -254,7 +254,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-button {
+ button {
   overflow: visible;
 }
 
@@ -264,8 +264,8 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-button,
-select {
+ button,
+ select {
   text-transform: none;
 }
 
@@ -276,9 +276,9 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-button,
-html input[type="button"], input[type="reset"],
-input[type="submit"] {
+ button,
+ html input[type="button"], input[type="reset"],
+ input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
@@ -288,16 +288,16 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-button[disabled],
-html input[disabled] {
+ button[disabled],
+ html input[disabled] {
   cursor: default;
 }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+ button::-moz-focus-inner,
+ input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
@@ -306,7 +306,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-input {
+ input {
   line-height: normal;
 }
 
@@ -317,8 +317,8 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-input[type="checkbox"],
-input[type="radio"] {
+ input[type="checkbox"],
+ input[type="radio"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
@@ -331,8 +331,8 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+ input[type="number"]::-webkit-inner-spin-button,
+ input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -341,7 +341,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-input[type="search"] {
+ input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -webkit-box-sizing: content-box;
@@ -354,15 +354,15 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+ input[type="search"]::-webkit-search-cancel-button,
+ input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
 /**
  * Define consistent border, margin, and padding.
  */
-fieldset {
+ fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
@@ -372,7 +372,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-legend {
+ legend {
   border: 0;
   /* 1 */
   padding: 0;
@@ -382,7 +382,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-textarea {
+ textarea {
   overflow: auto;
 }
 
@@ -390,16 +390,16 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-optgroup {
+ optgroup {
   font-weight: bold;
 }
 
 /* Tables
-   ========================================================================== */
+========================================================================== */
 /**
  * Remove most spacing between table cells.
  */
-table {
+ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -1006,7 +1006,52 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 .experience__icons-wrapper {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.experience__icons-wrapper .experience-group-title {
+  font-size: 30px;
+  color: aliceblue;
+  font-style: oblique;
+  clear: both;
+  padding-top: 50px;
+}
+
+.experience-more-show, .experience-more-hide {
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: right;
+}
+
+.experience__icons-wrapper .experience-list {
+  padding-left: 5%;
+  margin-bottom: 30px;
+}
+
+.experience__icons-wrapper .experience-icon {
+  font-size: 110px;
+  color: aliceblue;
+  width: 20%;
+  float: left;
+  height: 120px;
+  margin: 20px 0px;
+  position: relative;
+}
+
+.experience__icons-wrapper .experience-icon span {
+  display: block;
+  position: absolute;
+  font-size: 19px;
+  font-weight: 400;
+  left: 50%;
+  bottom: -25px;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-75%, 0);
+  color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .experience__icons-wrapper::after {
@@ -1612,7 +1657,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 /*------------------------------------*			.contact icons
-		\*------------------------------------*/
+\*------------------------------------*/
 .contact__icons-wrapper {
   margin-top: 100px;
   text-align: center;
@@ -1641,7 +1686,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 /*------------------------------------*			.contact forms
-		\*------------------------------------*/
+\*------------------------------------*/
 .contact__form {
   margin-top: 100px;
   text-align: center;
@@ -1670,7 +1715,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 /*------------------------------------*				.contact message textarea
-			\*------------------------------------*/
+\*------------------------------------*/
 .contact__textarea-wrapper {
   display: block;
   width: 100%;
@@ -1700,7 +1745,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 /*------------------------------------*				.contact bottom
-			\*------------------------------------*/
+\*------------------------------------*/
 .contact__sender-info-wrapper {
   display: inline-block;
   width: 50%;
@@ -1736,7 +1781,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 /*------------------------------------*					.contact button
-				\*------------------------------------*/
+\*------------------------------------*/
 .contact__button-wrapper {
   width: 46%;
   height: 139px;
@@ -1819,7 +1864,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 /*------------------------------------*				.contact ajax response
-			\*------------------------------------*/
+\*------------------------------------*/
 .contact__response {
   display: none;
   position: absolute;
@@ -1894,12 +1939,12 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 .footer__image {
   width: 350px;
   height: 100px;
-  background-image: url("../../logo.png");
+  background-image: url("../../../img/favicon.png");
   background-size: contain;
   background-position: center right;
   background-repeat: no-repeat;
   float: right;
-  opacity: 0.2;
+  opacity: 0.9;
 }
 
 /*------------------------------------*	(max-width: 1300px)
@@ -2751,189 +2796,189 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 /*------------------------------------*	Animated gradient window
 	resolutions fixes
-\*------------------------------------*/
-@-webkit-keyframes HeroGradientRWD_a {
-  0% {
-    -webkit-transform: translate(-75%, -75%);
-    transform: translate(-75%, -75%);
+  \*------------------------------------*/
+  @-webkit-keyframes HeroGradientRWD_a {
+    0% {
+      -webkit-transform: translate(-75%, -75%);
+      transform: translate(-75%, -75%);
+    }
+    100% {
+      -webkit-transform: translate(-5%, -5%);
+      transform: translate(-5%, -5%);
+    }
   }
-  100% {
-    -webkit-transform: translate(-5%, -5%);
-    transform: translate(-5%, -5%);
+  @keyframes HeroGradientRWD_a {
+    0% {
+      -webkit-transform: translate(-75%, -75%);
+      transform: translate(-75%, -75%);
+    }
+    100% {
+      -webkit-transform: translate(-5%, -5%);
+      transform: translate(-5%, -5%);
+    }
   }
-}
-@keyframes HeroGradientRWD_a {
-  0% {
-    -webkit-transform: translate(-75%, -75%);
-    transform: translate(-75%, -75%);
-  }
-  100% {
-    -webkit-transform: translate(-5%, -5%);
-    transform: translate(-5%, -5%);
-  }
-}
 
-@media (max-width: 1850px) {
-  .hero__gradient {
-    -webkit-animation-name: HeroGradientRWD_a;
-    animation-name: HeroGradientRWD_a;
+  @media (max-width: 1850px) {
+    .hero__gradient {
+      -webkit-animation-name: HeroGradientRWD_a;
+      animation-name: HeroGradientRWD_a;
+    }
   }
-}
 
-@-webkit-keyframes HeroGradientRWD_b {
-  0% {
-    -webkit-transform: translate(-80%, -80%);
-    transform: translate(-80%, -80%);
+  @-webkit-keyframes HeroGradientRWD_b {
+    0% {
+      -webkit-transform: translate(-80%, -80%);
+      transform: translate(-80%, -80%);
+    }
+    100% {
+      -webkit-transform: translate(-16%, -16%);
+      transform: translate(-16%, -16%);
+    }
   }
-  100% {
-    -webkit-transform: translate(-16%, -16%);
-    transform: translate(-16%, -16%);
-  }
-}
 
-@keyframes HeroGradientRWD_b {
-  0% {
-    -webkit-transform: translate(-80%, -80%);
-    transform: translate(-80%, -80%);
+  @keyframes HeroGradientRWD_b {
+    0% {
+      -webkit-transform: translate(-80%, -80%);
+      transform: translate(-80%, -80%);
+    }
+    100% {
+      -webkit-transform: translate(-16%, -16%);
+      transform: translate(-16%, -16%);
+    }
   }
-  100% {
-    -webkit-transform: translate(-16%, -16%);
-    transform: translate(-16%, -16%);
-  }
-}
 
-@media (max-width: 1750px) {
-  .hero__gradient {
-    -webkit-animation-name: HeroGradientRWD_b;
-    animation-name: HeroGradientRWD_b;
+  @media (max-width: 1750px) {
+    .hero__gradient {
+      -webkit-animation-name: HeroGradientRWD_b;
+      animation-name: HeroGradientRWD_b;
+    }
   }
-}
 
-@-webkit-keyframes HeroGradientRWD_c {
-  0% {
-    -webkit-transform: translate(-70%, -70%);
-    transform: translate(-70%, -70%);
+  @-webkit-keyframes HeroGradientRWD_c {
+    0% {
+      -webkit-transform: translate(-70%, -70%);
+      transform: translate(-70%, -70%);
+    }
+    100% {
+      -webkit-transform: translate(-22%, -22%);
+      transform: translate(-22%, -22%);
+    }
   }
-  100% {
-    -webkit-transform: translate(-22%, -22%);
-    transform: translate(-22%, -22%);
-  }
-}
 
-@keyframes HeroGradientRWD_c {
-  0% {
-    -webkit-transform: translate(-70%, -70%);
-    transform: translate(-70%, -70%);
+  @keyframes HeroGradientRWD_c {
+    0% {
+      -webkit-transform: translate(-70%, -70%);
+      transform: translate(-70%, -70%);
+    }
+    100% {
+      -webkit-transform: translate(-22%, -22%);
+      transform: translate(-22%, -22%);
+    }
   }
-  100% {
-    -webkit-transform: translate(-22%, -22%);
-    transform: translate(-22%, -22%);
-  }
-}
 
-@media (max-width: 1600px) {
-  .hero__gradient {
-    -webkit-animation-name: HeroGradientRWD_c;
-    animation-name: HeroGradientRWD_c;
+  @media (max-width: 1600px) {
+    .hero__gradient {
+      -webkit-animation-name: HeroGradientRWD_c;
+      animation-name: HeroGradientRWD_c;
+    }
   }
-}
 
-@-webkit-keyframes HeroGradientRWD_d {
-  0% {
-    -webkit-transform: translate(-70%, -70%);
-    transform: translate(-70%, -70%);
+  @-webkit-keyframes HeroGradientRWD_d {
+    0% {
+      -webkit-transform: translate(-70%, -70%);
+      transform: translate(-70%, -70%);
+    }
+    100% {
+      -webkit-transform: translate(-27%, -27%);
+      transform: translate(-27%, -27%);
+    }
   }
-  100% {
-    -webkit-transform: translate(-27%, -27%);
-    transform: translate(-27%, -27%);
-  }
-}
 
-@keyframes HeroGradientRWD_d {
-  0% {
-    -webkit-transform: translate(-70%, -70%);
-    transform: translate(-70%, -70%);
+  @keyframes HeroGradientRWD_d {
+    0% {
+      -webkit-transform: translate(-70%, -70%);
+      transform: translate(-70%, -70%);
+    }
+    100% {
+      -webkit-transform: translate(-27%, -27%);
+      transform: translate(-27%, -27%);
+    }
   }
-  100% {
-    -webkit-transform: translate(-27%, -27%);
-    transform: translate(-27%, -27%);
-  }
-}
 
-@media (max-width: 1370px) {
-  .hero__gradient {
-    -webkit-animation-name: HeroGradientRWD_d;
-    animation-name: HeroGradientRWD_d;
+  @media (max-width: 1370px) {
+    .hero__gradient {
+      -webkit-animation-name: HeroGradientRWD_d;
+      animation-name: HeroGradientRWD_d;
+    }
   }
-}
 
-@-webkit-keyframes HeroGradientRWD_e {
-  0% {
-    -webkit-transform: translate(-70%, -70%);
-    transform: translate(-70%, -70%);
+  @-webkit-keyframes HeroGradientRWD_e {
+    0% {
+      -webkit-transform: translate(-70%, -70%);
+      transform: translate(-70%, -70%);
+    }
+    100% {
+      -webkit-transform: translate(-34%, -34%);
+      transform: translate(-34%, -34%);
+    }
   }
-  100% {
-    -webkit-transform: translate(-34%, -34%);
-    transform: translate(-34%, -34%);
-  }
-}
 
-@keyframes HeroGradientRWD_e {
-  0% {
-    -webkit-transform: translate(-70%, -70%);
-    transform: translate(-70%, -70%);
+  @keyframes HeroGradientRWD_e {
+    0% {
+      -webkit-transform: translate(-70%, -70%);
+      transform: translate(-70%, -70%);
+    }
+    100% {
+      -webkit-transform: translate(-34%, -34%);
+      transform: translate(-34%, -34%);
+    }
   }
-  100% {
-    -webkit-transform: translate(-34%, -34%);
-    transform: translate(-34%, -34%);
-  }
-}
 
-@media (max-width: 1250px) {
-  .hero__gradient {
-    -webkit-animation-name: HeroGradientRWD_e;
-    animation-name: HeroGradientRWD_e;
+  @media (max-width: 1250px) {
+    .hero__gradient {
+      -webkit-animation-name: HeroGradientRWD_e;
+      animation-name: HeroGradientRWD_e;
+    }
   }
-}
 
-@-webkit-keyframes HeroGradientRWD_f {
-  0% {
-    -webkit-transform: translate(-70%, -70%);
-    transform: translate(-70%, -70%);
+  @-webkit-keyframes HeroGradientRWD_f {
+    0% {
+      -webkit-transform: translate(-70%, -70%);
+      transform: translate(-70%, -70%);
+    }
+    100% {
+      -webkit-transform: translate(-42%, -42%);
+      transform: translate(-42%, -42%);
+    }
   }
-  100% {
-    -webkit-transform: translate(-42%, -42%);
-    transform: translate(-42%, -42%);
-  }
-}
 
-@keyframes HeroGradientRWD_f {
-  0% {
-    -webkit-transform: translate(-70%, -70%);
-    transform: translate(-70%, -70%);
+  @keyframes HeroGradientRWD_f {
+    0% {
+      -webkit-transform: translate(-70%, -70%);
+      transform: translate(-70%, -70%);
+    }
+    100% {
+      -webkit-transform: translate(-42%, -42%);
+      transform: translate(-42%, -42%);
+    }
   }
-  100% {
-    -webkit-transform: translate(-42%, -42%);
-    transform: translate(-42%, -42%);
-  }
-}
 
-@media (max-width: 1070px) {
-  .hero__gradient {
-    -webkit-animation-name: HeroGradientRWD_f;
-    animation-name: HeroGradientRWD_f;
+  @media (max-width: 1070px) {
+    .hero__gradient {
+      -webkit-animation-name: HeroGradientRWD_f;
+      animation-name: HeroGradientRWD_f;
+    }
   }
-}
 
-@media (max-width: 960px) {
-  .hero__gradient {
-    -webkit-animation-name: none;
-    animation-name: none;
-    background-image: -webkit-linear-gradient(top left, #00223e, #ffa17f 960px);
-    background-image: linear-gradient(to bottom right, #00223e, #ffa17f 960px);
-    width: 100%;
-    height: 100%;
+  @media (max-width: 960px) {
+    .hero__gradient {
+      -webkit-animation-name: none;
+      animation-name: none;
+      background-image: -webkit-linear-gradient(top left, #00223e, #ffa17f 960px);
+      background-image: linear-gradient(to bottom right, #00223e, #ffa17f 960px);
+      width: 100%;
+      height: 100%;
+    }
   }
-}
 
-/*# sourceMappingURL=global.css.map */
+  /*# sourceMappingURL=global.css.map */

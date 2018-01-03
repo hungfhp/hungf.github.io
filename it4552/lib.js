@@ -1,1 +1,0 @@
-$('#bai_tap_5').append('<div class="text-center">Coded by Hung - 20142062</div><br>');
